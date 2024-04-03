@@ -1,0 +1,162 @@
+body {
+  background: linear-gradient(to left, #ff9999 1%, #ffffcc 100%);
+  background-size: auto;
+  background-blend-mode: darken;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  height: 300px;
+}
+
+
+.row:after {
+
+  display: table;
+  clear: both;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ff6666;
+  margin-top: 3px;
+
+
+}
+
+#navContent {
+  margin-left: 250px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  padding: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.topnav img {
+  padding-top: 30px;
+  padding-left: 35px;
+}
+
+.img {
+  width: 750px;
+  height: 650px;
+  padding: 0;
+}
+
+.big {
+  margin: 20px;
+  font-size: 40px;
+  margin-top: 20px;
+  letter-spacing: 4px;
+}
+
+.content {
+  margin-top: 130px;
+  max-width: 500px;
+  margin-left: 140px;
+
+}
+
+.paragraph {
+  margin-top: 60px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 70px;
+  background-color: #ff6666;
+  width: 200px;
+  height: 50px;
+  border: none
+}
+
+.flex-container {
+  display: flex;
+  height: 230px;
+  margin-top: 700px;
+  margin-left: 150px;
+}
+
+.flex-container>div {
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+}
+
+.flex-container>div .img1 {
+  width: 220px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.flex-container>div .img2 {
+  width: 220px;
+  height: 200px;
+
+}
+
+.flex-container>div .img3 {
+  width: 250px;
+  height: 410px;
+  margin-right: 1200px;
+
+}
+
+section {
+  margin-top: 80px;
+  margin-left: 100px;
+  width: 500px;
+  height: 250px;
+  background-color: #ff6666;
+
+}
+
+.sec1 {
+
+  color: black;
+  margin-left: 40px;
+  padding-top: 30px;
+
+}
+
+.sec2 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30px;
+  margin-right: 150px;
+}
+
+.part1 {
+  padding-right: 30px;
+}
+
+.sec3 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.img4 {
+  padding-left: 10px;
+}
+
+.flex {
+  display: flex;
+}
